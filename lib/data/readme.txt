@@ -1,0 +1,1 @@
+data-folder needed in first versions of FreeMindViewer
