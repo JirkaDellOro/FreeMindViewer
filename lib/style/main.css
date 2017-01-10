@@ -1,0 +1,242 @@
+div#canvas,div#textView,div.map_gui{
+	display:none;
+}
+div.loader{
+	display: none;
+	top:80px;
+	left:0;
+	position: absolute;
+	width: 100%;
+}
+div.pic{
+	background-image: url("../img/loader.gif");
+	width: 32px;
+	height: 32px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div#textView {
+	display:none;
+}
+div#textView>div{
+	display:inline-block;
+	margin-left: 80px;
+}
+div#upload form>*{
+	text-align: center;
+}
+div#upload{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+div#upload>div{
+	display: table-cell;
+	vertical-align: middle;
+}
+div#upload.mapView{
+	display: inline-block;
+	width: auto;
+	height: auto;
+}
+.file_label{
+	background-color: #eeeeee;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 20px;
+	border: 1px solid;
+	border-radius: 4px;
+	padding: 3px;
+	width: 110px;
+}
+.file_label>img{
+	height:20%;
+}
+.file_label>input{
+	display: none;
+}
+#upload.mapView .headline{
+	display: none;
+}
+div.headline{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 50px;
+	text-shadow: 2px 2px 3px #725A5A;
+}
+.startView{
+	margin-left: auto;
+	margin-right: auto;
+	width:200px;
+	height:200px;
+	border: 1px solid;
+	border-radius: 4px;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 4px #000;	
+}
+.mapView div.DragDrop,
+.mapView div.fileName,
+.mapView .file_label>div {
+	display: none;
+}
+.mapView .file_label>img {
+	height: 50px;
+}
+.mapView .file_label{
+	width:inherit;
+	border:none;
+	margin:0;
+	padding:5px;
+}
+.mapView > div{
+	display: block;
+}
+.mapView form{
+	border-left:none;
+	border-top: none;
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 0px;
+	height: auto;
+	width: auto;
+	display: inline-block;
+	position: fixed;
+	top: 0px;
+	z-index: 101;
+	box-shadow: 0px 0px 4px #000;
+}
+div.DragDrop{
+	margin: 20px 0px;
+	text-align: center;
+	transition:height 1s ease;
+}
+
+div.map_gui{
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+
+	margin-top: -52px;
+}
+div.map_gui>div{
+	position: relative;
+	bottom: -52px;
+	height: 36px;
+
+	background-color: #eeeeee;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	border: 1px solid;
+	border-top: 0px;
+	padding: 5px 8px 8px 8px;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	box-shadow: 0px 0px 4px #000;
+}
+button.generateURL,button.switchView{
+	background: none;
+	padding: 2px;
+	border: 1px solid;
+	border-radius: 5px;
+}
+.gui_scale{
+	display:inline-block;
+}
+button.rangeButton{
+	border: 1px solid;
+	border-radius: 5px;
+	width: 26px;
+	height: 26px;
+	text-align: center;
+}
+button.plus{
+	background-image: url('../img/button_plus.png');
+}
+button.minus{
+	background-image: url('../img/button_minus.png');
+}
+button{
+	transition:background-color 1s ease;
+	-webkit-transition:background-color 1s ease;
+}
+button:hover{
+	background-color:#bbbbbb;
+}
+#textView ul{
+	list-style-type: inside;
+}
+li.listItem{
+	list-style-image:url('../img/minus.png');
+}
+li.listItem>span,.noListItem>span{
+	cursor: pointer;
+}
+.noListItem{
+	list-style-image:url('../img/plus.png');
+}
+body li.standardListItem{
+	list-style-image: none;
+	list-style-type: circle;
+}
+div.verticalAlignParent{
+	display: table;
+}
+.verticalAlign{
+	display: table-cell;
+	vertical-align: middle;
+}
+label.scale{
+	padding-left: 5px;
+}
+a.listLink{
+	display:inline-block;
+	width:10px;
+	height:6px;
+	margin:2px 0px 2px 2px;
+	background-image: url('../img/icon_link.png');
+}
+span.highlight{
+	background-color:#eeeeee;
+}
+#shareDialogContainer{
+	position: absolute;
+	left:0;
+	top:100px;
+	width:100%;
+	display: none;
+}
+#shareDialogContainer a {
+	word-wrap: break-word;
+	width: 180px;
+}
+#shareDialogContainer .close_button{
+	width: 25px;
+	height: 25px;
+	position: relative;
+	top: 3px;
+	left: 3px;
+	margin-top: -25px;
+	margin-left: -25px;
+	background-image: url('../img/close_button_standard.png');
+	cursor: pointer;
+}
+#shareDialogContainer .close_button:hover{
+	background-image: url('../img/close_button_hover.png');
+}
+#shareDialogContainer > div {
+	border-radius: 4px;
+	box-shadow: 0px 0px 4px #000;
+	background-color: #fff;
+	border: 1px solid;
+	width:180px;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 10px;
+}
