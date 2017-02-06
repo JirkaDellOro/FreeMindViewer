@@ -4,6 +4,8 @@ Online-Viewer for MindMaps created with FreeMind
 Project initiated and maintained by Jirka Dell'Oro-Friedl, Hochschule Furtwangen University
 First version written by Konstantin Röhm as student research project in summer 2014
 
+To preview, see this repository in github-pages: [https://jirkadelloro.github.io/FreeMindViewer/]
+
 
 ##Current Version 0.3.0
 - php-parts disconnected (needs testing), no support for upload
