@@ -11,4 +11,4 @@
 <node CREATED="1486378573125" ID="ID_1277953020" MODIFIED="1486378589504" TEXT="path (path to folder containing the mindmap-file" POSITION="left" FOLDED="false"/>
 <node CREATED="1486378590257" ID="ID_939084055" MODIFIED="1486378604883" TEXT="map (name of the file including extension &quot;.mm&quot;" POSITION="left" FOLDED="false"/>
 <node CREATED="1486378590257" ID="ID_939084055" MODIFIED="1486378604883" TEXT="list (boolean to show data as list or as mindmap)" POSITION="left" FOLDED="false"/>
-</node></node></node>
+</node><node xmlns="http://www.w3.org/1999/xhtml" TEXT="new NodeTEst" POSITION="left" ID="ID_109832788"></node></node></node>
